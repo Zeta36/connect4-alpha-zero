@@ -154,4 +154,7 @@ The following table is records of the best models.
 |2|100%|1| |
 |3|84,6%|1| |
 |4|78,6%|2| This model is good enough to avoid naive losing movements |
+|5|100%|1| The NN learns to play always in the center when it moves first |
+|6|100%|4| The model now is able to win any online Connect4 game with classic AI I've found |
+
 
