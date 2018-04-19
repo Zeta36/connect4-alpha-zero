@@ -1,6 +1,6 @@
 class EvaluateConfig:
     def __init__(self):
-        self.game_num = 20  # 400
+        self.game_num = 40  # 400
         self.replace_rate = 0.55
         self.play_config = PlayConfig()
         self.play_config.simulation_num_per_move = 100
