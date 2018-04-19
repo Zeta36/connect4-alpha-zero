@@ -4,7 +4,7 @@ import os
 from logging import getLogger
 # noinspection PyPep8Naming
 import keras.backend as K
-
+import ftplib
 from keras.engine.topology import Input
 from keras.engine.training import Model
 from keras.layers.convolutional import Conv2D
