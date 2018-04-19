@@ -20,7 +20,7 @@ class Config:
         elif config_type == "normal":
             import connect4_zero.configs.normal as c
         elif config_type == "distributed":
-            import chess_zero.configs.distributed as c
+            import connect4_zero.configs.distributed as c
         else:
             raise RuntimeError(f"unknown config_type: {config_type}")
         self.model = c.ModelConfig()
