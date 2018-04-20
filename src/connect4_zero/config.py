@@ -69,11 +69,11 @@ class ResourceConfig:
 
 class PlayWithHumanConfig:
     def __init__(self):
-        self.simulation_num_per_move = 100
-        self.thinking_loop = 3
+        self.simulation_num_per_move = 50
+        self.thinking_loop = 2
         self.logging_thinking = True
-        self.c_puct = 2
-        self.parallel_search_num = 4
+        self.c_puct = 1
+        self.parallel_search_num = 2
         self.noise_eps = 0
         self.change_tau_turn = 0
         self.resign_threshold = None

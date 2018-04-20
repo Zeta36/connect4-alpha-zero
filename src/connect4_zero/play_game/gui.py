@@ -22,17 +22,17 @@ def start(config: Config):
             if env.player_turn() == Player.black:
                 if not human_is_black:
                     action = connect4_model.move_by_ai(env)
-                    print("IA moves to: " + str(action))
+                    print("IA moves to: " + str(action + 1))
                 else:
                     action = connect4_model.move_by_human(env)
-                    print("You move to: " + str(action))
+                    print("You move to: " + str(action + 1))
             else:
                 if human_is_black:
                     action = connect4_model.move_by_ai(env)
-                    print("IA moves to: " + str(action))
+                    print("IA moves to: " + str(action + 1))
                 else:
                     action = connect4_model.move_by_human(env)
-                    print("You move to: " + str(action))
+                    print("You move to: " + str(action + 1))
             env.step(action)
             env.render()
 
