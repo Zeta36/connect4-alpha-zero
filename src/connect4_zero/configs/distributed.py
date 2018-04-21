@@ -23,7 +23,7 @@ class PlayConfig:
         self.thinking_loop = 2
         self.logging_thinking = False
         self.c_puct = 1.5
-        self.noise_eps = 0.25
+        self.noise_eps = 0.1
         self.dirichlet_alpha = 0.03
         self.change_tau_turn = 5
         self.virtual_loss = 3
