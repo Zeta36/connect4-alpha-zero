@@ -19,7 +19,7 @@ class PlayDataConfig:
 
 class PlayConfig:
     def __init__(self):
-        self.simulation_num_per_move = 100
+        self.simulation_num_per_move = 50
         self.thinking_loop = 2
         self.logging_thinking = False
         self.c_puct = 3
