@@ -19,10 +19,10 @@ class PlayDataConfig:
 
 class PlayConfig:
     def __init__(self):
-        self.simulation_num_per_move = 50
+        self.simulation_num_per_move = 100
         self.thinking_loop = 2
         self.logging_thinking = False
-        self.c_puct = 1.5
+        self.c_puct = 3
         self.noise_eps = 0.1
         self.dirichlet_alpha = 0.03
         self.change_tau_turn = 5
