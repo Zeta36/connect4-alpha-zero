@@ -69,7 +69,7 @@ class Connect4Env:
 
         self.check_for_fours()
 
-        if self.turn > 42:
+        if self.turn >= 42:
             self.done = True
             if self.winner is None:
                 self.winner = Winner.draw
