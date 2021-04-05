@@ -1,3 +1,4 @@
+h5py<3.0.0
 tensorflow==1.14.0
 Keras==2.3.1
 python-dotenv==0.7.1
