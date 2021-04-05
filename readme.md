@@ -11,9 +11,9 @@ This project is based in two main resources:
 Environment
 -----------
 
-* Python 3.6.3
-* tensorflow-gpu: 1.3.0
-* Keras: 2.0.8
+* Python 3.6.13
+* tensorflow: 1.14.0
+* Keras: 2.3.1
 
 Modules
 -------
@@ -49,13 +49,9 @@ Setup
 -------
 ### install libraries
 ```bash
+pyenv virtualenv 3.6.13 connect4
+pyenv activate connect4
 pip install -r requirements.txt
-```
-
-If you want use GPU,
-
-```bash
-pip install tensorflow-gpu
 ```
 
 ### set environment variables
@@ -76,7 +72,7 @@ Self-Play
 --------
 
 ```bash
-python src/connect4_zero/run.py self
+python src/connect4_zero/run.py self --new
 ```
 
 When executed, Self-Play will start using BestModel.
